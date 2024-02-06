@@ -5,7 +5,7 @@ import Casino from "../assets/images/casino-img.webp"
 const Aprende = () => {
     return (
         <>
-            <div className='max-lg:bg-white bg-[url(./assets/images/white-bg2.webp)] bg-no-repeat bg-100 pt-[20px] sm:pt-[40px] lg:pt-[304px] pb-[20px] sm:pb-[40px] lg:pb-[324px]'>
+            <div className='max-lg:bg-white bg-[url(./assets/images/white-bg2.webp)] bg-no-repeat bg-100 pt-[20px] sm:pt-[40px] lg:pt-[304px] pb-[20px] sm:pb-[40px] lg:pb-[324px]' id='porque'>
                 <div className='max-w-[1140px] mx-auto px-3 py-[30px] '>
                     <div className=' flex flex-wrap flex-row'>
                         <div className=' w-full md:w-1/2 my-auto'>

@@ -6,7 +6,7 @@ import { Arrow1, Arrow2 } from './Icon'
 
 const Service = () => {
     return (
-        <div className='container'>
+        <div className='container' id='mision'>
             <h2 className='font-["anton"] font-normal sm:text-[400px] text-[35px] md:text-[48px] text-[#00141B] text-center'>Nuestros Atributos de Marca</h2>
             <div className='row sm:pt-[40px] pt-[30px] md:pt-[60px]'>
                 <div className='w-full md:w-1/2 lg:w-4/12 px-3 flex flex-col items-center relative'>

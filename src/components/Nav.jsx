@@ -23,11 +23,11 @@ const Nav = () => {
           </div>
           <ul className={`${nav ? "left-0" : "left-[-100%]"
             } flex items-center gap-[28px] mobileView duration-300`}>
-            <li><a onClick={show} className='text-[16px] font-[Inter] font-medium text-[#D2D8DA] hover:text-[#FFFFFF] duration-300' href="#">Hogar</a></li>
-            <li><a onClick={show} className='text-[16px] font-[Inter] font-medium text-[#D2D8DA] hover:text-[#FFFFFF] duration-300' href="#">Misión</a></li>
-            <li><a onClick={show} className='text-[16px] font-[Inter] font-medium text-[#D2D8DA] hover:text-[#FFFFFF] duration-300' href="#">Tragamonedas</a></li>
-            <li><a onClick={show} className='text-[16px] font-[Inter] font-medium text-[#D2D8DA] hover:text-[#FFFFFF] duration-300' href="#">Por qué elegirnos</a></li>
-            <li><a onClick={show} className='text-[16px] font-[Inter] font-medium text-[#D2D8DA] hover:text-[#FFFFFF] duration-300' href="#">Ofertas</a></li>
+            <li><a onClick={show} className='text-[16px] font-[Inter] font-medium text-[#D2D8DA] hover:text-[#FFFFFF] duration-300' href="#hogar">Hogar</a></li>
+            <li><a onClick={show} className='text-[16px] font-[Inter] font-medium text-[#D2D8DA] hover:text-[#FFFFFF] duration-300' href="#mision">Misión</a></li>
+            <li><a onClick={show} className='text-[16px] font-[Inter] font-medium text-[#D2D8DA] hover:text-[#FFFFFF] duration-300' href="#tragamoedaa">Tragamonedas</a></li>
+            <li><a onClick={show} className='text-[16px] font-[Inter] font-medium text-[#D2D8DA] hover:text-[#FFFFFF] duration-300' href="#porque">Por qué elegirnos</a></li>
+            <li><a onClick={show} className='text-[16px] font-[Inter] font-medium text-[#D2D8DA] hover:text-[#FFFFFF] duration-300' href="#oferates">Ofertas</a></li>
             <li className='relative'>
               <a className='sm:hidden' onClick={show} href="#">
                 <Common2 text="Acceso" />

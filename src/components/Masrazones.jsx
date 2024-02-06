@@ -21,7 +21,7 @@ const Masrazones = () => {
                         <div className='md:w-1/2 px-3 h-full'>
                             <p className='text-white  leading-[57.6px] lg:mb-[60px] mb-4  sm:mb-7 font-normal text-[25px] sm:text-[35px] lg:text-[48px] font-["anton"]'>Más razones para elegirnos</p>
                             <div className='max-w-[374px]'>
-                                <div className='flex border-[0.5px] border-white    bg-grad items-center justify-center py-[20px] gap-[37px] mb-6 max-w-[374px] rounded-[16px]'>
+                                <div className='flex border-[0.5px] border-white  items-center justify-center py-[20px] gap-[37px] mb-6 max-w-[374px] rounded-[16px]'>
                                     <img src={Light1} alt="image" />
                                     <div className='flex flex-col'>
                                         <p className='text-white text-[24px] sm:text-[32px] leading-[41.6px] font-normal text-nowrap font-["anton"]'>200</p>

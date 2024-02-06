@@ -7,7 +7,7 @@ import ellipse1 from '../assets/images/seven-leftelipse.png'
 
 const Pokersection = () => {
     return (
-        <div className=' relative z-[1]'>
+        <div className=' relative z-[1]' id='hogar'>
             <div className='container  pt-[74px] pb-[100px]'>
                 <img src={ellipse2} alt='image' className='z-[-1] animate-pulse absolute bottom-[-80%] right-0'></img>
                 <img src={ellipse1} alt='image' className='z-[-1] animate-pulse absolute bottom-[0%] left-[-10%] max-md:hidden'></img>

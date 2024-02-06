@@ -19,7 +19,7 @@ const Jackpot = () => {
     ]
     return (
         <>
-            <div className='relative z-[1]'>
+            <div className='relative z-[1]' id='tragamoedaa'>
                 <img src={ellipse2} alt='image' className='z-[-1] animate-pulse absolute bottom-[-40%] right-0'></img>
                 <img src={ellipse1} alt='image' className='z-[-2] animate-pulse absolute top-[-10%] left-[-10%] max-md:hidden'></img>
                 <div className='bg-[url(./assets/images/jackpot-bg.webp)] bg-cover bg-no-repeat bg-center sm:pt-[60px] pt-[40px] md:pt-[90px] px-3 relative'>
