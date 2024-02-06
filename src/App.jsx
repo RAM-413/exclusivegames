@@ -14,8 +14,20 @@ import Masrazones from './components/Masrazones'
 import Pokersection from './components/Pokersection'
 import Preloader from './components/Preloader'
 import Whitesection from './components/Whitesection'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react'
 
 function App() {
+  useEffect(() => {
+    AOS.init(
+      {
+        once: true,
+        duration: 1500,
+        disable: 'mobile',
+      }
+    );
+  });
 
   return (
     <>

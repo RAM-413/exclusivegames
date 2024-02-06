@@ -160,29 +160,7 @@ export const Righttick = () => {
         </span>
     )
 }
-export const Box3elipse = () => {
-    return (
-        <span>
-            <svg width="424" height="424" viewBox="0 0 424 424" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g filter="url(#filter0_f_268_15938)">
-                    <circle cx="212" cy="212" r="81" fill="url(#paint0_linear_268_15938)" />
-                </g>
-                <defs>
-                    <filter id="filter0_f_268_15938" x="0" y="0" width="424" height="424" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
-                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                        <feGaussianBlur stdDeviation="65.5" result="effect1_foregroundBlur_268_15938" />
-                    </filter>
-                    <linearGradient id="paint0_linear_268_15938" x1="338.121" y1="284.846" x2="128.398" y2="126.844" gradientUnits="userSpaceOnUse">
-                        <stop stopcolor="#51C8EF" />
-                        <stop offset="1" stopcolor="#7AF57A" />
-                    </linearGradient>
-                </defs>
-            </svg>
 
-        </span>
-    )
-}
 export const Elipsecenter = () => {
     return (
         <span>
@@ -207,54 +185,3 @@ export const Elipsecenter = () => {
         </span>
     )
 }
-export const Pokerleftelipse = () => {
-    return (
-        <span>
-            <svg width="484" height="800" viewBox="0 0 532 1204" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g opacity="0.5" filter="url(#filter0_f_112_13841)">
-                    <circle cx="-70" cy="602" r="242" fill="url(#paint0_linear_112_13841)" />
-                </g>
-                <defs>
-                    <filter id="filter0_f_112_13841" x="-671.9" y="0.100006" width="1203.8" height="1203.8" filterUnits="userSpaceOnUse" colorinterpolationfilters="sRGB">
-                        <feFlood floodopacity="0" result="BackgroundImageFix" />
-                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                        <feGaussianBlur stdDeviation="179.95" result="effect1_foregroundBlur_112_13841" />
-                    </filter>
-                    <linearGradient id="paint0_linear_112_13841" x1="306.805" y1="819.638" x2="-319.775" y2="347.582" gradientUnits="userSpaceOnUse">
-                        <stop stopcolor="#51C8EF" />
-                        <stop offset="1" stopcolor="#7AF57A" />
-                    </linearGradient>
-                </defs>
-            </svg>
-
-
-        </span>
-    )
-}
-export const Pokerrightelipse = () => {
-    return (
-        <span>
-            <svg width="480" height="800" viewBox="0 0 522 1204" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g opacity="0.5" filter="url(#filter0_f_112_13840)">
-                    <circle cx="602" cy="602" r="242" fill="url(#paint0_linear_112_13840)" />
-                </g>
-                <defs>
-                    <filter id="filter0_f_112_13840" x="0.100006" y="0.100006" width="1203.8" height="1203.8" filterUnits="userSpaceOnUse" colorinterpolationfilters="sRGB">
-                        <feFlood floodopacity="0" result="BackgroundImageFix" />
-                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                        <feGaussianBlur stdDeviation="179.95" result="effect1_foregroundBlur_112_13840" />
-                    </filter>
-                    <linearGradient id="paint0_linear_112_13840" x1="978.805" y1="819.638" x2="352.225" y2="347.582" gradientUnits="userSpaceOnUse">
-                        <stop stopcolor="#51C8EF" />
-                        <stop offset="1" stopcolor="#7AF57A" />
-                    </linearGradient>
-                </defs>
-            </svg>
-
-
-
-        </span>
-    )
-}
-
-

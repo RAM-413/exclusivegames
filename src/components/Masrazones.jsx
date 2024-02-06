@@ -19,17 +19,17 @@ const Masrazones = () => {
                             <img src={img3} alt="img" className='w-full max-w-[558px]' />
                         </div>
                         <div className='md:w-1/2 px-3 h-full'>
-                            <p className='text-white  leading-[57.6px] lg:mb-[60px] mb-5 mt-3 sm:mb-7 font-normal text-[25px] sm:text-[35px] lg:text-[48px] font-["anton"]'>Más razones para elegirnos</p>
+                            <p className='text-white  leading-[57.6px] lg:mb-[60px] mb-4  sm:mb-7 font-normal text-[25px] sm:text-[35px] lg:text-[48px] font-["anton"]'>Más razones para elegirnos</p>
                             <div className='max-w-[374px]'>
-                                <div className='flex border-[0.5px] border-white    bg-grad items-center justify-center py-[24px] gap-[37px] mb-7 max-w-[374px] rounded-[16px]'>
+                                <div className='flex border-[0.5px] border-white    bg-grad items-center justify-center py-[20px] gap-[37px] mb-6 max-w-[374px] rounded-[16px]'>
                                     <img src={Light1} alt="image" />
                                     <div className='flex flex-col'>
                                         <p className='text-white text-[24px] sm:text-[32px] leading-[41.6px] font-normal text-nowrap font-["anton"]'>200</p>
                                         <p className=' font-["inter"]
-                                        r"] font-medium text-[16px] leading-[25.6px] text-[#CED4D4] max-w-[364px]'>Páginas creadas</p>
+                                     font-medium text-[16px] leading-[25.6px] text-[#CED4D4] max-w-[364px]'>Páginas creadas</p>
                                     </div>
                                 </div>
-                                <div className='flex border-[0.5px] border-white   items-center justify-center py-[24px] gap-[37px] mb-7 max-w-[374px] rounded-[16px]'>
+                                <div className='flex border-[0.5px] border-white   items-center justify-center py-[20px] gap-[37px] mb-6 max-w-[374px] rounded-[16px]'>
                                     <img src={Light2} alt="image" />
                                     <div className='flex flex-col'>
                                         <p className='text-white text-[24px] sm:text-[32px] leading-[41.6px]  font-normal text-nowrap font-["anton"]'>98%</p>
@@ -37,7 +37,7 @@ const Masrazones = () => {
                                         r"] font-medium text-[16px] leading-[25.6px] text-[#CED4D4] max-w-[364px]'>Clientes Satisfechas</p>
                                     </div>
                                 </div>
-                                <div className='flex  border-[0.5px] border-white  items-center justify-center py-[24px] gap-[37px]  max-w-[374px] rounded-[16px]'>
+                                <div className='flex  border-[0.5px] border-white  items-center justify-center py-[20px] gap-[37px]  max-w-[374px] rounded-[16px]'>
                                     <img src={Light3} alt="image" />
                                     <div className='flex flex-col'>
                                         <p className='text-white text-[24px] sm:text-[32px] leading-[41.6px] font-normal text-nowrap font-["anton"]'>200</p>

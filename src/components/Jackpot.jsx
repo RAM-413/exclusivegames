@@ -21,12 +21,12 @@ const Jackpot = () => {
         <>
             <div className='relative z-[1]'>
                 <img src={ellipse2} alt='image' className='z-[-1] animate-pulse absolute bottom-[-40%] right-0'></img>
-                <img src={ellipse1} alt='image' className='z-[-2] animate-pulse absolute top-[-20%] left-[-10%] max-md:hidden'></img>
+                <img src={ellipse1} alt='image' className='z-[-2] animate-pulse absolute top-[-10%] left-[-10%] max-md:hidden'></img>
                 <div className='bg-[url(./assets/images/jackpot-bg.webp)] bg-cover bg-no-repeat bg-center sm:pt-[60px] pt-[40px] md:pt-[90px] px-3 relative'>
                     <div className=' px-3 mx-auto max-w-[1140px]'>
                         <div className='flex flex-row flex-wrap -mx-3 justify-center items-center'>
                             <div className='lg:w-1/2 px-3'>
-                                <img src={jackpot} alt="img" className='w-full max-h-[438px]' />
+                                z                          <img src={jackpot} alt="img" className='w-full max-h-[438px]' />
                             </div>
                             <div className='lg:w-1/2 pr-3 pl-[20px] pt-[10px] sm:pt-[30px]'>
                                 <p className='text-white text-[30px] sm:text-[48px] leading-9 sm:leading-[57.6px] xl:text-nowrap mb-[16px] font-normal font-anton'>Potenciando sus elecciones</p>
@@ -59,8 +59,8 @@ const Jackpot = () => {
                         <p className=' font-["anton"] font-normal max-w-[520px] sm:text-[40px] text-[27px] md:text-[48px] text-center leading-9 sm:leading-[57.6px] text-white'>
                             lanza tu propia plataforma en sólo 2 semanas
                         </p>
-                        <img src={boxLayer1} alt="layer" className='absolute left-0 z-[0] top-0 ' />
-                        <img src={boxLayer2} alt="layer" className='absolute right-0 z-[0] bottom-0' />
+                        <img src={boxLayer1} alt="layer" className='absolute left-0 z-[0] top-0  opacity-50' />
+                        <img src={boxLayer2} alt="layer" className='absolute right-0 z-[0] bottom-0  opacity-50' />
                     </div>
                     <div className=' px-3'>
                         <div className=' mx-auto container  max-w-[1140px] mt-[20px] md:mt-[80px] sm:mt-[50px] px-3'>

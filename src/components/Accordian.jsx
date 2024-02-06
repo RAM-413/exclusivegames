@@ -21,10 +21,10 @@ const Accordian = () => {
     const handleOpen = (value) => setOpen(open === value ? 0 : value);
     return (
         <>
-            <div className='relative z-[1] max-sm:mt-[-60px]'>
-                <img src={ellipse1} alt='image' className='z-[-2] animate-pulse absolute top-[-30%] left-[-10%] max-md:hidden'></img>
-                <div className='max-w-[970px] mx-auto px-3'>
-                    <div className='py-[150px]'>
+            <div className='relative z-[6] max-sm:mt-[-60px]'>
+                <img src={ellipse1} alt='image' className='z-[-1] animate-pulse absolute top-[-30%] left-[-10%] max-md:hidden'></img>
+                <div className='max-w-[970px] mx-auto px-3 relative z-[1]'>
+                    <div className='pt-[150px] md:pb-[150px] sm:pb-[100px] pb-[20px]'>
                         <h2 className='text-[27px] sm:text-[48px] font-["anton"] leading-[120%] font-normal text-center sm:pb-[45px] pb-[35px] md:pb-[60px] text-white'>Preguntas más frecuentes</h2>
                         <Accordion className=" border-[#80898D] border mb-4 sm:mb-8 rounded-[10px] " open={open === 1} icon={<OpenSign id={1} open={open} />}                >
                             <AccordionHeader onClick={() => handleOpen(1)} className="font-['anton']  px-5 py-4 sm:text-[16px] text-[14px] md:text-[20px] text-start font-normal text-white leading-[170%] sm:leading-[130%] border-transparent" >¿Cuáles son las ventajas de elegir Juegos Exclusivos para mis plataformas de juegos?</AccordionHeader>

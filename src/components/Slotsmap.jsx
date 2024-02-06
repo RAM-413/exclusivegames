@@ -26,7 +26,7 @@ const Slotsmap = () => {
                         {products.map((items, index) => (
                             <div key={index}>
                                 <div className='w-full h-full relative overflow-auto rounded-[8px] group duration-300 cursor-pointer'>
-                                    <img className="w-full" src={items.img} alt="" />
+                                    <img className="w-full" src={items.img} alt="item-img" />
                                     <div className=' absolute bg-[#000000B8] w-full h-full left-[-100%] bottom-0 group-hover:left-0 flex items-center justify-center group-hover:opacity-100 opacity-0 duration-300'>
                                         <Common2 text='Jugar' />
                                     </div>
