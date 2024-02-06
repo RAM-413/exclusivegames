@@ -18,7 +18,7 @@ const Nav = () => {
     <>
       <nav className='bg-[#FFFFFF1A] py-[24px]'>
         <div className='container  flex items-center justify-between'>
-          <div>
+          <div className=' cursor-pointer'>
             <img className=' max-w-[210px] w-full' src={logo} alt="logo" />
           </div>
           <ul className={`${nav ? "left-0" : "left-[-100%]"
