@@ -56,7 +56,7 @@ const Jackpot = () => {
                         </div>
                     </div>
                     <div className='max-w-[1044px] mx-auto rounded-[16px] sm:mt-[100px] mt-[20px] md:mt-[150px] relative z-[1] overflow-hidden border-[1px] border-white flex items-center justify-center sm:py-[70px] py-[50px] md:py-[96px]'>
-                        <p className=' font-["anton"] font-normal max-w-[520px] sm:text-[40px] text-[27px] md:text-[48px] text-center leading-9 sm:leading-[57.6px] text-white'>
+                        <p className=' font-["anton"] font-normal max-w-[520px] sm:text-[40px] text-[25px] md:text-[48px] text-center leading-9 sm:leading-[57.6px] text-white'>
                             lanza tu propia plataforma en sólo 2 semanas
                         </p>
                         <img src={boxLayer1} alt="layer" className='absolute left-0 z-[0] top-0  opacity-50' />

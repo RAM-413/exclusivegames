@@ -21,7 +21,7 @@ const Preloader = () => {
                     style={{ zIndex: "100" }}
                     className="bg-[black] top-0 start-0 fixed h-full w-full flex flex-col justify-center items-center"
                 >
-                    <img className=" animate-pulse" src={Preloaderimg} alt="Preloader" />
+                    <img className=" animate-pulse max-w-[300px] max-h-[300px] lg:max-w-[500px] lg:max-h-[500px]" src={Preloaderimg} alt="Preloader" />
                 </section>
             ) : (
                 ""
