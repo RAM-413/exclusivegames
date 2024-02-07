@@ -13,7 +13,7 @@ const Pokersection = () => {
                 <img src={ellipse1} alt='image' className='z-[-1] animate-pulse absolute bottom-[0%] left-[-10%] max-md:hidden'></img>
                 <div className=' flex  flex-wrap -ml-3 '>
                     <div className='w-1/2 max-lg:w-full max-lg:flex max-lg:flex-col max-lg:items-center px-3'>
-                        <img className=' lg:max-w-[538px] w-full md:max-w-[400px] sm:max-w-[300px] max-w-[250px]' src={PokerImg} alt="poker" />
+                        <img className=' lg:max-w-[538px] w-full md:max-w-[400px] sm:max-w-[300px] max-w-[250px] object-cover' src={PokerImg} alt="poker" />
                         <h2 className='lg:pt-[60px] pt-2 font-["anton"] font-normal text-[40px] sm:text-[48px] text-[#FFFFFF]'>Nuestra Visión</h2>
                         <p className='pt-4 max-lg:text-center text-[#CCD0D2] font-["inter"] font-medium text-[14px] sm:text-[16px] max-w-[444px] '>Nuestra visión es ser líderes indiscutibles en la industria de los juegos de azar y llevar nuestra pasión por el entretenimiento más allá de las fronteras. Imagina un mundo donde la emoción y la diversión no tengan límites, y ese es el mundo que queremos crear contigo.</p>
                         <div className='pt-6' >
@@ -29,7 +29,7 @@ const Pokersection = () => {
                             </div>
                         </div>
                         <div>
-                            <img className='md:pt-[60px] sm:pt-[40px] pt-[30px]  lg:max-w-[538px] w-full md:max-w-[400px] sm:max-w-[300px] max-w-[250px]' src={Aviator} alt="aviator" />
+                            <img className='md:pt-[60px] sm:pt-[40px] pt-[30px]  lg:max-w-[538px] w-full md:max-w-[400px] sm:max-w-[300px] max-w-[250px] object-cover' src={Aviator} alt="aviator" />
                         </div>
                     </div>
                 </div>
@@ -37,6 +37,4 @@ const Pokersection = () => {
         </div>
     )
 }
-
 export default Pokersection
-

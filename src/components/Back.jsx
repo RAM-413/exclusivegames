@@ -17,7 +17,7 @@ const Back = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-
+    
     const scrollToTop = () => {
         window.scrollTo({
             top: 0,
@@ -29,7 +29,7 @@ const Back = () => {
         <>
             <button
                 className={`${isVisible ? 'opacity-100' : 'opacity-0'
-                    } fixed z-50 bottom-8 right-2 sm:right-6 p-2 border-[2px] border-white  rounded-full bg-[green]  animate-bounce duration-300`}
+                    } fixed z-50 bottom-8 right-2 sm:right-6 p-2 border-[2px] border-white  rounded-full bg-[black]  animate-bounce duration-300`}
                 onClick={scrollToTop}
             >
                 <span>
